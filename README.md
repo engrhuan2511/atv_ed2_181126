@@ -8,8 +8,9 @@
 ## Integrantes
 
 | Nome | Usuário do GitHub |
-| Kristian Kieling | --- |
-| Nicolas Barros | --- |
+| K.K (Kieling) | kristiankieling68 |
+| Nicolas Barros | barrosnicolas123
+| Pedro Henrique | - |
 | Rhuan Pessoa | engrhuan2511 |
 | Yuri Alexandrino | Yuri-A08 |
 
