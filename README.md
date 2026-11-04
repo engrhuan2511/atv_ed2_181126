@@ -2,16 +2,16 @@
 
 **Disciplina:** Estrutura de Dados II  
 **Conteúdo:** (pesquisa de dados e hashing) e (classificação e Árvore-B)  
-**Grupo:** ### alunos  (MAX 4 TIMES)
+**Grupo:** EQUIPE STARK
 **Prazo:** 18/11/2026
 
 ## Integrantes
 
 | Nome | Usuário do GitHub |
-| --- | --- |
-|  |  |
-|  |  |
-|  |  |
+| Kristian Kieling | --- |
+| Nicolas Barros | --- |
+| Rhuan Pessoa | engrhuan2511 |
+| Yuri Alexandrino | Yuri-A08 |
 
 ## O problema
 
