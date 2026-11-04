@@ -8,6 +8,7 @@
 ## Integrantes
 
 | Nome | Usuário do GitHub |
+| --- | --- |
 | K.K (Kieling) | kristiankieling68 |
 | Nicolas Barros | barrosnicolas123
 | Pedro Henrique | - |
