@@ -32,5 +32,3 @@ static void quick(Aluno *v, int ini, int fim) {
 }
 
 void ordena_quick(Aluno *v, int n) { if (n > 1) quick(v, 0, n - 1); }
-
-void ordena_quick(Aluno *v, int n) { if (n > 1) quick(v, 0, n - 1); }
