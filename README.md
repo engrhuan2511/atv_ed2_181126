@@ -10,8 +10,8 @@
 | Nome | Usuário do GitHub |
 | --- | --- |
 | K.K (Kieling) | kristiankieling68 |
-| Nicolas Barros | barrosnicolas123
-| Pedro Henrique | - |
+| Nicolas Barros | barrosnicolas12373
+| Pedro Henrique | pedr0-0liveira |
 | Rhuan Pessoa | engrhuan2511 |
 | Yuri Alexandrino | Yuri-A08 |
 
