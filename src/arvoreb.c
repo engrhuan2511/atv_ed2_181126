@@ -7,7 +7,7 @@ que no trabalho mede as buscas realizadas no comparativo, e se nao gostou eu vou
 
 static int busca_sem_contar(const NoB *x, int chave) {  
 
-   if (x == Null) return -1;
+   if (x == NULL) return -1;
    int i = 0;
    while (i < x->n && chave > x->chave[i]) i++;
 
@@ -52,7 +52,7 @@ static void divide_filho(ArvoreB *a, NoB *x, int i) {
 
    direita->n = t - 1;
 
-   for (int j = 0; j < t - 1, j++) { 
+   for (int j = 0; j < t - 1; j++) { 
       
    
         direita->chave[j] = cheio->chave[j + t];
