@@ -37,17 +37,27 @@ void hash_insere(Hash *h, int chave, int pos) {
 }
 
 int hash_busca(const Hash *h, int chave) {
-    /* TODO: percorra a lista da posição hash_funcao(h, chave).
-       Faça comparacoes++ a cada nó visitado.
-       Achou: devolva p->pos. Chegou ao fim: devolva -1. */
-    (void)h; (void)chave;
+    int i = hash_funcao(h, chave);
+ 
+    for (NoHash *p = h->lista[i]; p != NULL; p = p->prox) {
+        comparacoes++;
+        if (p->chave == chave)
+            return p->pos;
+    }
     return -1;
 }
-
+ 
 int hash_maior_lista(const Hash *h) {
-    /* TODO: devolva o tamanho da maior lista da tabela. */
-    (void)h;
-    return 0;
+    int maior = 0;
+ 
+    for (int i = 0; i < h->m; i++) {
+        int tam = 0;
+        for (NoHash *p = h->lista[i]; p != NULL; p = p->prox)
+            tam++;
+        if (tam > maior)
+            maior = tam;
+    }
+    return maior;
 }
 
 void hash_libera(Hash *h) {
