@@ -59,10 +59,18 @@ int hash_maior_lista(const Hash *h) {
     }
     return maior;
 }
-
+ 
 void hash_libera(Hash *h) {
     if (h == NULL) return;
-    /* TODO: libere todos os nós de todas as listas antes das linhas abaixo. */
+ 
+    for (int i = 0; i < h->m; i++) {
+        NoHash *p = h->lista[i];
+        while (p != NULL) {
+            NoHash *prox = p->prox;  /* guarda o próximo antes de liberar */
+            free(p);
+            p = prox;
+        }
+    }
     free(h->lista);
     free(h);
 }
