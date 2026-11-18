@@ -179,16 +179,3 @@ int arvb_conta_faixa(const ArvoreB *a, int ini, int fim) {
 }
 
  
-
-
-
-
-
-
-
-}
-
-
-
-
-
